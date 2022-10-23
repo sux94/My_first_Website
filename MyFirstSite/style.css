@@ -1,0 +1,44 @@
+body {
+ margin: 0px;
+ font-size: 21px;
+}
+
+img {
+    border-radius: 50%;
+    border: yellow 10px solid;
+    padding: 10px 5px 0px 5px;
+    display: block;
+    margin: auto;
+}
+
+.column {
+    width: 500px;
+background-color: beige;
+margin: 5px 3px;
+}
+
+.columns {
+    display: flex;
+    margin: 10px 50px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* ho provato ad inserrire lo span sulla parte iniziale del testo,giusto 
+ha fare mettere il bordo, ma non ha funzionaato perche mi seleziona anche il
+testo finale. ho provato a mettere la classificazione, manco quello ha funzionato */
+h2 span{
+background-color: blanchedalmond;
+padding: auto 3px;
+}
+
+/* how can i hide h1 so that the structure of the page remains the same? i have already
+tried using display:none. But it shifts everything upward */
+
+h1 {
+    visibility: hidden;
+}
